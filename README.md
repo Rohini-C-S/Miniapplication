@@ -9,18 +9,21 @@ user password=123
 amazon.java
 Admin ID:admin
 Admin password=1234
+
 merchandlist:
       (String merchandname,String merchandPass,String merchandbrand,int merchandId,String status):  
               ("rohini", "1111","Mobiles",101,"approved")
               ("selvi", "2222","Tablets",102,"approved")
               ("ramya", "3333","Furniture",103,"approved")
               ("pavi","4444","Laptops",104,"approved")
+              
 userlist:
        (String u_name,String u_pass,double u_amt,int u_id):
               ("keerthana", "1111",120000,90)
               ("nandhini", "2222",90000,91)
               ("priya", "9999",50000,92)
               ("sandhiya", "5555",40000,93)
+              
 productlist:
        (String product_name,String product_brand,String product_details,int product_id,int merchandId,double product_price,double product_dis):
                ("Mobiles", "Redmi","RAM-16GB ROM-256GB",1001,101,32000,5)
